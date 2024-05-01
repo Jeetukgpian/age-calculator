@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var birthDateInput = document.getElementById("birthDate");
   var resultDisplay = document.getElementById("result");
 
+  
   // Adding event listener to the Calculate button
   calculateButton.addEventListener("click", function () {
     // Getting the birth date value from the input field
